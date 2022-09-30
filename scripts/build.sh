@@ -3,7 +3,7 @@
 set -e
 
 S='./scripts'
-SCRIPTS=(netlify index minjs mincss minhtml)
+SCRIPTS=(index minjs mincss minhtml)
 
 main() {
     for script in "${SCRIPTS[@]}"; do
@@ -14,6 +14,8 @@ main() {
     done
 
     wait
+
+    ./scripts/netlify.sh
 }
 
 main "$@"
