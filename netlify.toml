@@ -32,6 +32,12 @@
     force = true
 
 [[redirects]]
+    from = "/:page"
+    to = "/page/:page"
+    status = 302
+    force = false
+
+[[redirects]]
     from = "/*"
     to = "https://ari-web.xyz/404.etc.xyz"
     status = 404
