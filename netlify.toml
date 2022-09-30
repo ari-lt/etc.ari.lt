@@ -1,5 +1,5 @@
 [build]
-    command = "./scripts/index.sh"
+    command = "npm run build"
 
 [[redirects]]
     from = "/git/*"
