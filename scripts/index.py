@@ -72,7 +72,10 @@ def main() -> int:
     </head>
 
     <body>
-        <header><h1><a href="https://ari-web.xyz/">Ari-web</a> random projects</h1></header>
+        <header>
+            <h1><a href="https://ari-web.xyz/">Ari-web</a> random projects</h1>
+            <h2><a href="/git">Source code here</a></h2>
+        </header>
         <main><ul>{pages}</ul></main>
     </body>
 </html>"""
