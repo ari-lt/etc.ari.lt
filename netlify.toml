@@ -1,0 +1,83 @@
+[build]
+    command = "./scripts/index.sh"
+
+[[redirects]]
+    from = "/git/*"
+    to = "https://ari-web.xyz/gh/etc.ari-web.xyz/:splat"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/favicon.ico"
+    to = "https://ari-web.xyz/favicon.ico"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/robots.txt"
+    to = "https://ari-web.xyz/robots.txt"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/sitemap.xml"
+    to = "https://ari-web.xyz/sitemap.xml"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/netlify.toml"
+    to = "https://ari-web.xyz/404.etc.xyz"
+    status = 404
+    force = true
+
+[[redirects]]
+    from = "/*"
+    to = "https://ari-web.xyz/404.etc.xyz"
+    status = 404
+    force = false
+
+# Processing
+[build.processing]
+    skip_processing = false
+
+[build.processing.html]
+    pretty_urls = true
+
+[build.processing.css]
+    bundle = true
+    minify = true
+
+[build.processing.js]
+    bundle = false
+    minify = true
+
+[build.processing.images]
+    compress = true
+# --------------
+
+[[headers]]
+    for = "/pages.json"
+
+    [headers.values]
+        Access-Control-Allow-Origin = "*"
+        Access-Control-Allow-Methods = "GET"
+
+[[headers]]
+    for = "/pages_json_hash.txt"
+
+    [headers.values]
+        Access-Control-Allow-Origin = "*"
+        Access-Control-Allow-Methods = "GET"
+
+[[headers]]
+    for = "/*"
+
+    [headers.values]
+        Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+        X-Frame-Options = "deny"
+        X-Content-Type-Options = "nosniff"
+        Content-Security-Policy = "upgrade-insecure-requests"
+        X-Permitted-Cross-Domain-Policies = "none"
+        Referrer-Policy = "no-referrer"
+

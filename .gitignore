@@ -1,0 +1,8 @@
+/index.html
+.mypy_cache/
+node_modules/
+*.min.*
+venv/
+/pages.json
+/pages_json_hash.txt
+

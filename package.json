@@ -1,0 +1,40 @@
+{
+    "name": "etc.ari-web.xyz",
+    "version": "1.0.0",
+    "description": "Random ari-web pages, projects, etc.",
+    "scripts": {
+        "serve": "live-server --no-browser",
+        "build": "./scripts/build.sh"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://ari-web.xyz/gh/etc.ari-web.xyz.git"
+    },
+    "keywords": [
+        "website",
+        "webdev",
+        "programming",
+        "ari",
+        "ari-web",
+        "dark",
+        "javascript",
+        "opensource",
+        "free",
+        "etc",
+        "projects"
+    ],
+    "author": "Ari Archer <ari.web.xyz@gmail.com>",
+    "license": "SEE LICENSE IN LICENSE",
+    "bugs": {
+        "url": "https://ari-web.xyz/gh/etc.ari-web.xyz/issues"
+    },
+    "homepage": "https://ari-web.xyz/gh/etc.ari-web.xyz#readme",
+    "devDependencies": {
+        "autoprefixer-cli": "^1.0.0",
+        "eslint": "^8.14.0",
+        "html-minifier": "^4.0.0",
+        "live-server": "^1.2.2",
+        "uglify-js": "^3.17.1",
+        "uglifycss": "^0.0.29"
+    }
+}
