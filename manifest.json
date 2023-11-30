@@ -1,8 +1,8 @@
 {
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-    "short_name": "Ari-web etc",
-    "name": "Ari::web -> Etc",
-    "description": "Random ari-web pages, projects, etc.",
+    "short_name": "ari-web etc",
+    "name": "ari::web -> Etc",
+    "description": "random ari-web pages, projects, etc",
     "icons": [{
         "src": "/favicon.ico",
         "sizes": "128x128",
