@@ -2,10 +2,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Maintained-Yes-green?color=red&style=flat-square">
-  <img src="https://img.shields.io/github/last-commit/TruncatedDinosour/etc.ari-web.xyz?color=red&style=flat-square">
-  <img src="https://img.shields.io/github/repo-size/TruncatedDinosour/etc.ari-web.xyz?color=red&style=flat-square">
-  <img src="https://img.shields.io/github/issues/TruncatedDinosour/etc.ari-web.xyz?color=red&style=flat-square">
-  <img src="https://img.shields.io/github/stars/TruncatedDinosour/etc.ari-web.xyz?color=red&style=flat-square">
+  <img src="https://img.shields.io/github/last-commit/TruncatedDinosour/etc.ari.lt?color=red&style=flat-square">
+  <img src="https://img.shields.io/github/repo-size/TruncatedDinosour/etc.ari.lt?color=red&style=flat-square">
+  <img src="https://img.shields.io/github/issues/TruncatedDinosour/etc.ari.lt?color=red&style=flat-square">
+  <img src="https://img.shields.io/github/stars/TruncatedDinosour/etc.ari.lt?color=red&style=flat-square">
 </p>
 
 <p align="center">
@@ -21,5 +21,5 @@ pip install --user -r requirements.txt
 
 ## Pages API
 
--   API: https://etc.ari-web.xyz/pages.json
--   API hash: https://etc.ari-web.xyz/pages_json_hash.txt
+-   API: https://etc.ari.lt/pages.json
+-   API hash: https://etc.ari.lt/pages_json_hash.txt
