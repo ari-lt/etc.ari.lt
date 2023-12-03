@@ -74,7 +74,8 @@ def main() -> int:
     <body>
         <header>
             <h1><a href="https://ari.lt/">Ari-web</a> random projects</h1>
-            <h2><a href="/git">Source code here</a>, visitor <img src="https://server.ari.lt/visit" alt="visitor count" style="display:inline" /></h2>
+            <h2><a href="/git">Source code here</a>, visitor \
+<img id=visitors src="http://us.ari.lt/counter/@ari/kpnuBU0qISQlfR7cSNwwg9oW8654-RguVrXh9JOBGo3EP1-bm7aF9ROuQO6Jqesk.svg" style="display:inline;height:1em;vertical-align:top" alt="visitor count" /></h2>
         </header>
         <main><ul>{pages}</ul></main>
     </body>
