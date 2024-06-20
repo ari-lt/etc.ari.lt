@@ -1,3 +1,4 @@
+# This repository has been migrated to the self-hosted ari-web Forgejo instance: <https://git.ari.lt/ari/etc.ari.lt>
 # Ari-web random projects
 
 <p align="center">
